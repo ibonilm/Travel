@@ -2,10 +2,6 @@
   "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
-    "hostingPlanName": {
-      "type": "string",
-      "minLength": 1
-    },
     "skuName": {
       "type": "string",
       "defaultValue": "F1",
@@ -34,6 +30,9 @@
       "metadata": {
         "description": "Describes plan's instance count"
       }
+    },
+    "hostingPlanName": {
+      "type": "string"
     },
     "administratorLogin": {
       "type": "string"
