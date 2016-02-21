@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8D9F02ED-AE7E-4A8D-809D-07DD31FDC714}"
 	ProjectSection(SolutionItems) = preProject
@@ -30,7 +30,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCompany.Travel.AzureEvent
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActiveDirectory.GraphHelper", "WindowsAzure.AD.Graph\ActiveDirectory.GraphHelper.csproj", "{56364C2F-DCF4-4D98-8FF7-72E98F0B7E86}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Server", "02. Server", "{D09DFCF7-B662-4124-9655-CA05FBC62FAF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{D09DFCF7-B662-4124-9655-CA05FBC62FAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{BA2A96EA-6DB5-4401-BD4B-60131B6D4414}"
+EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "MyCompany.Deployment", "MyCompany.Deployment\MyCompany.Deployment.deployproj", "{F072EC64-E0BD-4207-9C7E-09997B3259A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -128,6 +132,30 @@ Global
 		{56364C2F-DCF4-4D98-8FF7-72E98F0B7E86}.Release|Any CPU.Build.0 = Release|Any CPU
 		{56364C2F-DCF4-4D98-8FF7-72E98F0B7E86}.Release|ARM.ActiveCfg = Release|Any CPU
 		{56364C2F-DCF4-4D98-8FF7-72E98F0B7E86}.Release|x86.ActiveCfg = Release|Any CPU
+		{F072EC64-E0BD-4207-9C7E-09997B3259A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F072EC64-E0BD-4207-9C7E-09997B3259A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F072EC64-E0BD-4207-9C7E-09997B3259A4}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{F072EC64-E0BD-4207-9C7E-09997B3259A4}.Debug|ARM.Build.0 = Debug|Any CPU
+		{F072EC64-E0BD-4207-9C7E-09997B3259A4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F072EC64-E0BD-4207-9C7E-09997B3259A4}.Debug|x86.Build.0 = Debug|Any CPU
+		{F072EC64-E0BD-4207-9C7E-09997B3259A4}.DebugCD|Any CPU.ActiveCfg = Debug|Any CPU
+		{F072EC64-E0BD-4207-9C7E-09997B3259A4}.DebugCD|Any CPU.Build.0 = Debug|Any CPU
+		{F072EC64-E0BD-4207-9C7E-09997B3259A4}.DebugCD|ARM.ActiveCfg = Debug|Any CPU
+		{F072EC64-E0BD-4207-9C7E-09997B3259A4}.DebugCD|ARM.Build.0 = Debug|Any CPU
+		{F072EC64-E0BD-4207-9C7E-09997B3259A4}.DebugCD|x86.ActiveCfg = Debug|Any CPU
+		{F072EC64-E0BD-4207-9C7E-09997B3259A4}.DebugCD|x86.Build.0 = Debug|Any CPU
+		{F072EC64-E0BD-4207-9C7E-09997B3259A4}.Release_LocalDeployment|Any CPU.ActiveCfg = Release|Any CPU
+		{F072EC64-E0BD-4207-9C7E-09997B3259A4}.Release_LocalDeployment|Any CPU.Build.0 = Release|Any CPU
+		{F072EC64-E0BD-4207-9C7E-09997B3259A4}.Release_LocalDeployment|ARM.ActiveCfg = Release|Any CPU
+		{F072EC64-E0BD-4207-9C7E-09997B3259A4}.Release_LocalDeployment|ARM.Build.0 = Release|Any CPU
+		{F072EC64-E0BD-4207-9C7E-09997B3259A4}.Release_LocalDeployment|x86.ActiveCfg = Release|Any CPU
+		{F072EC64-E0BD-4207-9C7E-09997B3259A4}.Release_LocalDeployment|x86.Build.0 = Release|Any CPU
+		{F072EC64-E0BD-4207-9C7E-09997B3259A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F072EC64-E0BD-4207-9C7E-09997B3259A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F072EC64-E0BD-4207-9C7E-09997B3259A4}.Release|ARM.ActiveCfg = Release|Any CPU
+		{F072EC64-E0BD-4207-9C7E-09997B3259A4}.Release|ARM.Build.0 = Release|Any CPU
+		{F072EC64-E0BD-4207-9C7E-09997B3259A4}.Release|x86.ActiveCfg = Release|Any CPU
+		{F072EC64-E0BD-4207-9C7E-09997B3259A4}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -138,6 +166,7 @@ Global
 		{A2D2B1B4-A65A-40A1-81B7-2DADA59BB28E} = {D09DFCF7-B662-4124-9655-CA05FBC62FAF}
 		{F4EBEC64-1E62-495B-972B-38AF281EB282} = {D09DFCF7-B662-4124-9655-CA05FBC62FAF}
 		{56364C2F-DCF4-4D98-8FF7-72E98F0B7E86} = {D09DFCF7-B662-4124-9655-CA05FBC62FAF}
+		{F072EC64-E0BD-4207-9C7E-09997B3259A4} = {BA2A96EA-6DB5-4401-BD4B-60131B6D4414}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
